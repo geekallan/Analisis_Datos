@@ -36,6 +36,9 @@ public class AlertInformation extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
+        btb_aceptar.setBackground(new java.awt.Color(0, 102, 51));
+        btb_aceptar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btb_aceptar.setForeground(new java.awt.Color(255, 255, 255));
         btb_aceptar.setText("aceptar");
         btb_aceptar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

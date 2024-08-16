@@ -113,9 +113,10 @@ public class frm_start extends javax.swing.JFrame {
         pn_background.setForeground(new java.awt.Color(204, 204, 204));
         pn_background.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        lbl_logo.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
-        lbl_logo.setText("Manejo de Cadenas");
-        pn_background.add(lbl_logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 0, 190, 40));
+        lbl_logo.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
+        lbl_logo.setForeground(new java.awt.Color(0, 51, 102));
+        lbl_logo.setText("MANEJO DE CADENAS");
+        pn_background.add(lbl_logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 250, 40));
 
         jScrollPane1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -125,8 +126,9 @@ public class frm_start extends javax.swing.JFrame {
         txt_salida.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 2, true));
         jScrollPane1.setViewportView(txt_salida);
 
-        pn_background.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 560, 550, 120));
+        pn_background.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 560, 600, 120));
 
+        lbl_palaImpar.setForeground(new java.awt.Color(0, 102, 153));
         lbl_palaImpar.setText("Palabras con cantida de caracter impar:");
         pn_background.add(lbl_palaImpar, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 480, -1, -1));
 
@@ -134,45 +136,59 @@ public class frm_start extends javax.swing.JFrame {
         lbl_nombre.setText("hola");
         pn_background.add(lbl_nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 40, 110, 20));
 
+        lbl_totalpalabras.setForeground(new java.awt.Color(0, 102, 153));
         lbl_totalpalabras.setText("Total de palabras:");
         pn_background.add(lbl_totalpalabras, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, -1, -1));
 
+        lbl_primerale.setForeground(new java.awt.Color(0, 102, 153));
         lbl_primerale.setText("Primer letra del texto:");
         pn_background.add(lbl_primerale, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, -1, -1));
 
+        lbl_ultimale.setForeground(new java.awt.Color(0, 102, 153));
         lbl_ultimale.setText("Ultima letra del texto:");
         pn_background.add(lbl_ultimale, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
 
+        lbl_letracentral.setForeground(new java.awt.Color(0, 102, 153));
         lbl_letracentral.setText("Letra central del texto: ");
         pn_background.add(lbl_letracentral, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, -1, -1));
 
+        lbl_repeticionesA.setForeground(new java.awt.Color(0, 102, 153));
         lbl_repeticionesA.setText("Repeticiones de \"A\", \"a\" y \"á\":");
         pn_background.add(lbl_repeticionesA, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 280, -1, -1));
 
+        lbl_repeticionesE.setForeground(new java.awt.Color(0, 102, 153));
         lbl_repeticionesE.setText("Repeticiones de \"E\",\"e\" y \"é\":");
         pn_background.add(lbl_repeticionesE, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 310, -1, -1));
 
+        lbl_repeticionesI.setForeground(new java.awt.Color(0, 102, 153));
         lbl_repeticionesI.setText("Repeticions de \"I\",\"i\" y \"í\":");
         pn_background.add(lbl_repeticionesI, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 350, -1, -1));
 
+        lbl_repeticionesO.setForeground(new java.awt.Color(0, 102, 153));
         lbl_repeticionesO.setText("Repeticiones de \"O\",\"o\" y \"ó\":");
         pn_background.add(lbl_repeticionesO, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 380, -1, -1));
 
+        lbl_repeticionesU.setForeground(new java.awt.Color(0, 102, 153));
         lbl_repeticionesU.setText("Repeticiones de \"U\",\"u\" y \"ú\":");
         pn_background.add(lbl_repeticionesU, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 410, -1, -1));
 
+        lbl_primerapa.setForeground(new java.awt.Color(0, 102, 153));
         lbl_primerapa.setText("Primera palabra:");
         pn_background.add(lbl_primerapa, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, -1, -1));
 
+        lbl_palacentral.setForeground(new java.awt.Color(0, 102, 153));
         lbl_palacentral.setText("Palabra central:");
         pn_background.add(lbl_palacentral, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 460, -1, -1));
 
+        lbl_ultimapa.setForeground(new java.awt.Color(0, 102, 153));
         lbl_ultimapa.setText("Ultima palabra: ");
         pn_background.add(lbl_ultimapa, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 490, -1, -1));
 
+        lbl_palaPar.setForeground(new java.awt.Color(0, 102, 153));
         lbl_palaPar.setText("Palabras con cantida de caracter par:");
         pn_background.add(lbl_palaPar, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 450, -1, -1));
 
+        lbl_longitudtxt1.setForeground(new java.awt.Color(0, 102, 153));
         lbl_longitudtxt1.setText("Longitud del texto: ");
         pn_background.add(lbl_longitudtxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
 
@@ -190,9 +206,11 @@ public class frm_start extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(txt_entrada);
 
-        pn_background.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 480, 120));
+        pn_background.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 600, 120));
 
-        btb_procesar.setBackground(new java.awt.Color(0, 204, 51));
+        btb_procesar.setBackground(new java.awt.Color(0, 0, 0));
+        btb_procesar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btb_procesar.setForeground(new java.awt.Color(255, 255, 255));
         btb_procesar.setText("Procesar");
         btb_procesar.setBorder(null);
         btb_procesar.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -205,7 +223,7 @@ public class frm_start extends javax.swing.JFrame {
                 btb_procesarActionPerformed(evt);
             }
         });
-        pn_background.add(btb_procesar, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 200, 90, 30));
+        pn_background.add(btb_procesar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 210, 90, 30));
 
         lbl_letra_central.setText("0");
         pn_background.add(lbl_letra_central, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 400, -1, -1));
@@ -252,12 +270,15 @@ public class frm_start extends javax.swing.JFrame {
         lbl_cantidad_impar.setText("0");
         pn_background.add(lbl_cantidad_impar, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 480, -1, -1));
 
-        jLabel1.setText("Ingrese un texto o abra un archivo");
+        jLabel1.setFont(new java.awt.Font("Consolas", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 102, 153));
+        jLabel1.setText("Ingrese un texto o abra un archivo .TXT");
         pn_background.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel2.setText("Traduccion a clave Murcielago.");
-        pn_background.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 530, -1, -1));
+        jLabel2.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel2.setText("TRADUCCION A CLAVE MURCIELAGO");
+        pn_background.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 530, -1, -1));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         pn_background.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, -350, 690, 1100));
@@ -265,6 +286,7 @@ public class frm_start extends javax.swing.JFrame {
         mb_menubar.setBorder(null);
         mb_menubar.setBorderPainted(false);
 
+        jm_archivo.setForeground(new java.awt.Color(0, 102, 153));
         jm_archivo.setText("Archivo");
 
         jMenuItem1.setText("abrir");
@@ -295,6 +317,7 @@ public class frm_start extends javax.swing.JFrame {
 
         jm_editar.setBackground(new java.awt.Color(102, 102, 102));
         jm_editar.setBorder(null);
+        jm_editar.setForeground(new java.awt.Color(0, 102, 153));
         jm_editar.setText("Editar");
 
         jm_copiar.setText("Copiar");
